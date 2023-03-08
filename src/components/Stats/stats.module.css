@@ -1,12 +1,19 @@
-.title {
+.title {    
+    color: pink;       
+}
+
+.statList {
     display: flex;
-    color: pink;    
 }
 
 .item {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    background: greenyellow;
 }
-.label {
-    display: block;
-    margin-right: 50px;
+
+.label {    
+    text-align: start;
 }
