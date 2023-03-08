@@ -1,0 +1,20 @@
+
+li {
+    list-style: none;
+}
+.status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 50px;
+    border-radius: 50%;
+    
+}
+.onLine {
+    composes: status;
+    background-color: pink;
+}
+.offLine {
+    composes: status;
+    background-color: red;
+}

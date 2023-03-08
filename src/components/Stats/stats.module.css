@@ -1,0 +1,12 @@
+.title {
+    display: flex;
+    color: pink;    
+}
+
+.item {
+    display: flex;
+}
+.label {
+    display: block;
+    margin-right: 50px;
+}
