@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 export const Profile = ({username, avatar, tag, location, followers, views, likes}) => {
   return (
@@ -31,3 +31,12 @@ export const Profile = ({username, avatar, tag, location, followers, views, like
 </div>)
 }
 
+Profile.propTypes = {
+  username: PropTypes.string,
+  avatar: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
+}

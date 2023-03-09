@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import titleStyle from './stats.module.css'
 
 export default function Stats({ title, stats }) {
@@ -18,4 +19,9 @@ export default function Stats({ title, stats }) {
       </ul>
     </section>
   );
+}
+
+Stats.propTypes={
+  title: PropTypes.string,  
+  stats: PropTypes.number,
 }
